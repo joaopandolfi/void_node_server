@@ -1,0 +1,29 @@
+{
+  "name": "void",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "pm2": "pm2 stop server.json && pm2 start server.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/joaopandolfi/hydra.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaopandolfi/hydra/issues"
+  },
+  "homepage": "https://github.com/joaopandolfi/hydra#README",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "nunjucks": "^3.2.0",
+    "helmet": "^3.21.2",
+    "read-chunk": "^3.1.0"
+  }
+}
